@@ -1,98 +1,160 @@
-# Arshdeep Mann — Portfolio
+<div align="center">
 
-Fourth-year Computer Science student at Simon Fraser University, seeking a co-op starting January 2027 in software development, data, or cloud.
+# Arshdeep Mann
 
-[Email](mailto:asm32@sfu.ca) · [GitHub](https://github.com/arshmann2003) · New Westminster, BC
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=C4B89A&center=true&vCenter=true&width=620&lines=Computer+Science+%40+Simon+Fraser+University;Data+%C2%B7+Software+%C2%B7+Cloud;Seeking+a+January+2027+co-op" alt="Computer Science at SFU · Data, Software, Cloud · Seeking a January 2027 co-op" />
 
----
+<br/>
 
-## Featured project
+[![Email](https://img.shields.io/badge/asm32%40sfu.ca-1a1a1a?style=for-the-badge&logo=gmail&logoColor=C4B89A)](mailto:asm32@sfu.ca)
+[![GitHub](https://img.shields.io/badge/arshmann2003-1a1a1a?style=for-the-badge&logo=github&logoColor=C4B89A)](https://github.com/arshmann2003)
+![AWS Certified](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-1a1a1a?style=for-the-badge&logo=amazonwebservices&logoColor=C4B89A)
+![Location](https://img.shields.io/badge/New_Westminster,_BC-1a1a1a?style=for-the-badge&logo=googlemaps&logoColor=C4B89A)
 
-### Heart Disease Risk Screener
-**Python · scikit-learn · pandas · Streamlit · GitHub Actions**
-[Live demo](https://heart-risk-screener.streamlit.app/) · [Source](https://github.com/arshmann2003/HeartDiseaseClassifier)
-
-A web app that estimates heart-disease risk from 21 health-survey answers, trained on 253,680 CDC survey records, and shows which answers drive each person's estimate.
-
-- Found and fixed test-set leakage in threshold tuning, then rebuilt evaluation with separate training, validation, and test sets.
-- The validated screening threshold catches 81% of cases at 2.6× the base-rate precision.
-- Compared logistic regression, random forest, and tuned gradient boosting (0.85 ROC-AUC), selecting by PR-AUC because only 9% of records are positive, and kept predicted risks calibrated.
-- K-Means clustering found a high-risk subgroup with a 5× higher heart-disease rate.
-- Training and the app are packaged into tested Python modules, checked by CI on every push.
+</div>
 
 ---
 
-## Projects
+### About me
 
-### Student Performance Predictor
-**Python · scikit-learn · pandas · Streamlit**
-[Live demo](https://gpa-predictor-amann.streamlit.app/) · [Source](https://github.com/arshmann2003/student-performance-prediction)
+I'm a fourth-year Computer Science student at SFU who likes finding out whether a result can actually be trusted. Most of my work turns messy data into something a person can use: models that are evaluated honestly, packaged into tested code, and shipped as apps anyone can try.
 
-An interactive app that predicts student GPA and exam scores, trained on 9,000 records from three public datasets. Models were benchmarked against a mean baseline. The GPA model reached R² 0.90, within 0.23 GPA points on average. Absences were the strongest predictor of GPA, far ahead of study time.
-
-### Spring Maze
-**Java · Spring Boot · JavaScript · HTML/CSS**
-[Source](https://github.com/arshmann2003/mazeApp)
-
-A browser maze game with a JavaScript frontend and a Spring Boot REST API that creates mazes, stores game state, and accepts each move. Work included fixing frontend–backend integration issues and documenting the API.
-
-### Airlock Drop *(in progress)*
-**Python · AWS S3 · Lambda · IAM**
-
-A private file-drop service on AWS. Uploads stay in a private S3 bucket until a Lambda function checks size and file type. Files that pass get a short-lived presigned download link; files that fail are held for review and never served. IAM permissions are scoped so each part can touch only its own folder in the bucket.
-
-### Library Management System
-**Python · SQL · SQLite**
-
-A Python application on a SQLite schema for members, loans, events, and staff tasks, with SQL for create, read, and update, and checks that records stay consistent after every action.
+- **Focus:** data analysis, machine learning, and the software around it
+- **Also into:** systems programming, cloud infrastructure, and competitive programming
+- **Off the keyboard:** competitive ice hockey since 2015
 
 ---
 
-## Skills
+### Featured project
 
-| | |
-|---|---|
-| **Languages** | Python, Java, SQL, JavaScript, TypeScript, C, C++, R |
-| **Data & ML** | pandas, NumPy, scikit-learn, matplotlib, Streamlit |
-| **Web** | Spring Boot, REST APIs, HTML/CSS |
-| **Cloud & tools** | AWS (S3, Lambda, IAM), Git, GitHub Actions, SQLite, Linux |
+<table>
+<tr>
+<td>
 
-## Certifications
+#### Heart Disease Risk Screener
 
-- AWS Certified Cloud Practitioner
-- Google IT Support Professional Certificate
+[![Live demo](https://img.shields.io/badge/Live_Demo-C4B89A?style=for-the-badge&logo=streamlit&logoColor=1a1a1a)](https://heart-risk-screener.streamlit.app/)
+[![Source](https://img.shields.io/badge/Source-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arshmann2003/HeartDiseaseClassifier)
 
-## Education
+A web app that estimates heart-disease risk from 21 health-survey answers and explains which answers drive each person's estimate. It is trained on 253,680 CDC survey records.
 
-**B.Sc. Computer Science**, Simon Fraser University
-Coursework: Algorithms, Systems Programming, Database Systems, Cybersecurity, Web Development, Computational Data Science
+The most important part was a bug that didn't crash anything: threshold tuning was leaking test data and making results look better than they were. I found it, rebuilt the evaluation with separate training, validation, and test sets, and added tests so it can't quietly return.
+
+| Result | Value |
+|:--|:--|
+| Cases caught at the screening threshold | **81%** |
+| Precision vs. base rate | **2.6×** |
+| ROC-AUC (tuned gradient boosting) | **0.85** |
+| High-risk subgroup found with K-Means | **5×** the overall rate |
+
+`Python` `scikit-learn` `pandas` `Streamlit` `GitHub Actions`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## About this site
+### Projects
 
-A single static page: HTML, CSS, and a small JavaScript canvas animation. There is no build step and no server.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Preview locally**
+#### Student Performance Predictor
+[![Live demo](https://img.shields.io/badge/Live_Demo-C4B89A?style=flat-square&logo=streamlit&logoColor=1a1a1a)](https://gpa-predictor-amann.streamlit.app/)
+[![Source](https://img.shields.io/badge/Source-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/arshmann2003/student-performance-prediction)
 
-```bash
-cd portfolio/website
-python3 -m http.server 8088
-```
+Predicts GPA and exam scores from 9,000 student records across three public datasets. Every model was benchmarked against a simple baseline. The GPA model reached **R² 0.90**, within 0.23 GPA points on average. Absences predicted GPA far more strongly than study time.
 
-Open http://127.0.0.1:8088
+`Python` `scikit-learn` `pandas` `Streamlit`
 
-**Deploy to Amazon S3**
+</td>
+<td width="50%" valign="top">
 
-1. Create a bucket, turn on static website hosting with `index.html` as the index document, and allow public reads with a bucket policy for `s3:GetObject`.
-2. Upload:
+#### Spring Maze
+[![Source](https://img.shields.io/badge/Source-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/arshmann2003/mazeApp)
 
-```bash
-./deploy.sh your-bucket-name
-```
+A browser maze game with a JavaScript frontend and a Spring Boot REST API that creates mazes, stores game state, and takes every move. Most of the work was in the seam between the two: fixing integration bugs and documenting the API.
 
-3. For HTTPS, put a CloudFront distribution in front of the bucket. After each upload, refresh it:
+`Java` `Spring Boot` `JavaScript` `REST`
 
-```bash
-aws cloudfront create-invalidation --distribution-id YOUR_ID --paths "/*"
-```
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Group Chat Server
+
+A chat server in C that handles many clients at once over sockets, relaying messages in order and using non-blocking I/O to accept new connections without stalling.
+
+`C` `Sockets` `Networking`
+
+</td>
+<td width="50%" valign="top">
+
+#### QuickSum
+
+A Chrome extension that summarizes web pages with the OpenAI GPT API, streaming the response so text appears right away instead of after a wait.
+
+`JavaScript` `OpenAI API` `Chrome Extensions`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Library Management System
+
+A Python app on a SQLite schema I designed for members, loans, events, and staff tasks, with SQL for create, read, and update, and checks that records stay consistent after every action.
+
+`Python` `SQL` `SQLite`
+
+</td>
+<td width="50%" valign="top">
+
+#### Candy Factory Simulation
+
+A multi-threaded producer–consumer simulation in C that uses semaphores to coordinate shared resources and reports production-to-consumption delays.
+
+`C` `Threads` `Synchronization`
+
+</td>
+</tr>
+</table>
+
+---
+
+### Currently building
+
+- **Airlock Drop:** a private file-drop service on AWS. Uploads stay in a private S3 bucket until a Lambda check clears them, then get a short-lived download link. Built with `S3` `Lambda` `IAM`.
+- **A relational database in C++:** a term-long course project using threads and manual memory management.
+
+---
+
+### Tech stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,c,cpp,r&theme=dark" alt="Python, Java, JavaScript, TypeScript, C, C++, R" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=sklearn,spring,sqlite,aws,git,githubactions,linux&theme=dark" alt="scikit-learn, Spring, SQLite, AWS, Git, GitHub Actions, Linux" />
+</p>
+
+`pandas` `NumPy` `matplotlib` `Streamlit` `SQL` `REST APIs`
+
+---
+
+### Certifications
+
+![AWS](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Google](https://img.shields.io/badge/Google_IT_Support_Professional_Certificate-4285F4?style=flat-square&logo=google&logoColor=white)
+
+---
+
+<div align="center">
+
+**B.Sc. Computer Science, Simon Fraser University**
+
+<sub>Algorithms · Systems Programming · Database Systems · Cybersecurity · Web Development · Computational Data Science</sub>
+
+</div>

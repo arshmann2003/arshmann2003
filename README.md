@@ -7,7 +7,6 @@
 <br/>
 
 [![Email](https://img.shields.io/badge/asm32%40sfu.ca-1a1a1a?style=for-the-badge&logo=gmail&logoColor=C4B89A)](mailto:asm32@sfu.ca)
-[![GitHub](https://img.shields.io/badge/arshmann2003-1a1a1a?style=for-the-badge&logo=github&logoColor=C4B89A)](https://github.com/arshmann2003)
 ![AWS Certified](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-1a1a1a?style=for-the-badge&logo=amazonwebservices&logoColor=C4B89A)
 ![Location](https://img.shields.io/badge/New_Westminster,_BC-1a1a1a?style=for-the-badge&logo=googlemaps&logoColor=C4B89A)
 

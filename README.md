@@ -1,6 +1,6 @@
 <div align="center">
 
-# Arshdeep Mann
+# Arsh Mann
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=C4B89A&center=true&vCenter=true&width=620&lines=Computer+Science+%40+Simon+Fraser+University;Data+%C2%B7+Software+%C2%B7+Cloud;Seeking+a+January+2027+co-op" alt="Computer Science at SFU · Data, Software, Cloud · Seeking a January 2027 co-op" />
 

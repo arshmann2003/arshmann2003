@@ -71,6 +71,28 @@ Predicts GPA and exam scores from 9,000 student records across three public data
 </td>
 <td width="50%" valign="top">
 
+#### Library Management System
+[![Source](https://img.shields.io/badge/Source-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/arshmann2003/libraryDataBaseApp)
+
+A Python app on a SQLite schema I designed for members, loans, events, and staff tasks, with SQL for create, read, and update, and checks that records stay consistent after every action.
+
+`Python` `SQL` `SQLite`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Course Planner
+[![Source](https://img.shields.io/badge/Source-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/arshmann2003/Course-Planner)
+
+A browser app for SFU course offerings. Students browse departments and sections, and watch a course so they see when a new section is added. A graph shows how seat counts for a department have changed over time.
+
+`Java` `Spring Boot` `JavaScript` `REST`
+
+</td>
+<td width="50%" valign="top">
+
 #### Spring Maze
 [![Source](https://img.shields.io/badge/Source-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/arshmann2003/mazeApp)
 
@@ -103,15 +125,6 @@ A Chrome extension that summarizes web pages with the OpenAI GPT API, streaming 
 <tr>
 <td width="50%" valign="top">
 
-#### Library Management System
-
-A Python app on a SQLite schema I designed for members, loans, events, and staff tasks, with SQL for create, read, and update, and checks that records stay consistent after every action.
-
-`Python` `SQL` `SQLite`
-
-</td>
-<td width="50%" valign="top">
-
 #### Candy Factory Simulation
 
 A multi-threaded producer–consumer simulation in C that uses semaphores to coordinate shared resources and reports production-to-consumption delays.
@@ -126,7 +139,6 @@ A multi-threaded producer–consumer simulation in C that uses semaphores to coo
 
 ### Currently building
 
-- **Airlock Drop:** a private file-drop service on AWS. Uploads stay in a private S3 bucket until a Lambda check clears them, then get a short-lived download link. Built with `S3` `Lambda` `IAM`.
 - **A relational database in C++:** a term-long course project using threads and manual memory management.
 
 ---

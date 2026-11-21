@@ -158,7 +158,7 @@ A multi-threaded producer–consumer simulation in C that uses semaphores to coo
 ### Certifications
 
 ![AWS](https://img.shields.io/badge/AWS_Certified_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-[![Amazon](https://shields.io)](https://coursera.org}
+[![Amazon](https://shields.io)](https://coursera.org)
 ---
 
 <div align="center">
